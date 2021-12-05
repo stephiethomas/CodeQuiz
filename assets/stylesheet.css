@@ -1,0 +1,111 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-color: cornflowerblue;
+}
+
+.start-btn,
+.rules,
+.quiz-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.start-btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color:rgba(53, 49, 49, 0.7);
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: coral;
+}
+.directions-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid coral;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+}
+
+.rules{
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+
+}
+.rules .directions-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid coral;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.rules .directions {
+    padding: 15px 35px;
+}
+.rules .rule {
+    margin: 5px, 0;
+    font-size: 18px;
+}
+.rules .rule span{
+    font-weight: 600;
+    color: coral;
+}
+.rules .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid coral;
+}
+.rules .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid coral;
+    background: cornsilk;
+    border-radius: 5px;
+    color: cornsilk;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s ease-out;
+}
+.buttons button.done {
+    color: coral;
+}
+
+.buttons button.restart{
+    color: cornsilk;
+    background: coral;
+}
+.buttons button.restart:hover{
+background: cornflowerblue;
+}
+.buttons button.done:hover{
+    background: cornflowerblue;
+}
+.quiz-container{
+    width: 550px;
+    background: cornsilk;
+    border-radius: 5px;
+}
+.quiz-container header{
+    height: 70px;
+    padding: 0 30px;
+    background: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 3px 5px -1px rgba(53, 49, 49, 0.7);
+}
+.quiz-container header .title{
+
+}
