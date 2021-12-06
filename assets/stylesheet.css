@@ -3,7 +3,7 @@ body {
     background-color: cornflowerblue;
 }
 
-.start-btn,
+.start_btn,
 .rules,
 .quiz-container {
     position:absolute;
@@ -11,7 +11,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.start-btn button{
+.start_btn button{
     font-size: 25px;
     font-weight: 500;
     color:rgba(53, 49, 49, 0.7);
@@ -77,24 +77,28 @@ body {
     font-weight: 500;
     transition: all 0.5s ease-out;
 }
-.buttons button.done {
-    color: coral;
-}
+.buttons 
+#startbtn, #exit {
+    background:cornflowerblue;
+    
+} 
 
-.buttons button.restart{
-    color: cornsilk;
-    background: coral;
+.buttons #startbtn:hover{
+background: coral;
 }
-.buttons button.restart:hover{
-background: cornflowerblue;
-}
-.buttons button.done:hover{
-    background: cornflowerblue;
+.buttons #exit:hover{
+    background: red;
 }
 .quiz-container{
-    width: 550px;
+    width: 100%;
+    height: 100%;
     background: cornsilk;
     border-radius: 5px;
+    box-shadow: rgba(53, 49, 49, 0.7);
+    font-size: medium;
+    font-weight: normal;
+    border: 3px solid coral;
+    text-align: left;
 }
 .quiz-container header{
     height: 70px;
@@ -105,7 +109,69 @@ background: cornflowerblue;
     justify-content: space-between;
     border-radius: 5px 5px 0 0;
     box-shadow: 0px 3px 5px -1px rgba(53, 49, 49, 0.7);
+    border: 1px solid coral;
+    font-size: 20px;
+    font-style: italic;
 }
-.quiz-container header .title{
+.que_text{
+    text-align: center;
+    margin: 5px;
 
+}
+#option1 {
+    display: flex;
+    border-radius: 5px;
+    background: cornflowerblue;
+    justify-content: center;
+    padding: 0 30px;
+    border: 1px solid coral;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+    text-align: wrap;
+}
+#option1:hover {
+    background: coral;
+}
+#option2 {
+    display: flex;
+    border-radius: 5px;
+    background: cornflowerblue;
+    justify-content: center;
+    padding: 0 30px;
+    border: 1px solid coral;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+#option2:hover {
+    background: coral;
+}
+#option3 {
+    display: flex;
+    border-radius: 5px;
+    background: cornflowerblue;
+    justify-content: center;
+    padding: 0 30px;
+    border: 1px solid coral;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+#option3:hover {
+    background: coral;
+}
+#option4 {
+    display: block;
+    border-radius: 5px;
+    background: cornflowerblue;
+    justify-content: center;
+    padding: 0 30px;
+    border: 1px solid coral;
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+#option4:hover {
+    background: coral;
 }

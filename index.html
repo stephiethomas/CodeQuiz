@@ -20,7 +20,7 @@
 <!--Quiz Directions-->
         <div class="rules">
             <div class="directions-title">
-                <span>Directions for this Quiz</span>
+                <span>Directions for this JavaScript Quiz</span>
             </div>
             <div class="directions">
                 <div class="rule">1. You will only have <span>15 seconds</span> per question.</div>
@@ -32,12 +32,13 @@
             <div class="buttons">
                 <!--<button class="done">Start Quiz</button>
                 <!-Start Quiz Button-->
-                <!-<div class= "start-btn">
+                <div class= "start-btn">
                     
-                <</div> -->
-                    <button id="startbtn">Start Quiz</button>
+                 
+                   <button id="startbtn">Start Quiz</button>
         
-                <button class="restart">Continue</button>
+                    <button id="exit">Exit</button>
+                </div> 
             </div>
 
 <!--Quiz Container--> 
@@ -46,7 +47,7 @@
                     <div class="title">JavaScript Quiz</div>
                     <div class="timer">
                         <div class="time-text">Time Remaining</div>
-                        <div class="timer-sec">15</div>
+                        <p id="demo"></p>
                     </div>
                 </header>
                 <section>
@@ -59,29 +60,16 @@
                         <button class="btn" id="option3" data-value = "3"></button>
                         <button class="btn" id="option4" data-value = "4"></button>
                         <div class="options">
-                            <span>Class="function"</span>
+                            
                         </div>
 
-                        <!-- <div class="option-list">
-                            <div class="options">
-                                <span>.function()</span>
-                        <div class="option-list">
-                            <div class="options">
-                                <span>function()</span>
-                            </div>
-                        </div>
-                        <div class="option-list">
-                            <div class="options">
-                                <span>function .class()</span>                       
-                     </div> -->
-                    </div>
+                       </div>
                 </section>
-
+                
                 <footer>
-                    <div class="total">
-                        <span><p>2</p><p>of</p><p>5</p>Questions</span>
-                    </div>
-                    <button class="next-btn">Next Question</button>
+                    <button class="btn" id="score">Score</button>
+                </footer>
+                    
             </div>
 
 
