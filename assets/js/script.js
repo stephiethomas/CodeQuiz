@@ -54,7 +54,7 @@ var questionList = [
         choiceB: "Legacy coding",
         choiceC: "combining CSS & JavaScript",
         choiceD: "As is, not changing any tool while coding",
-        answer:3
+        answer:4
     },
     {
         question: "5. What is JQuery?",
